@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>About Us</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Terms and Conditions</h1>
+        <p>Welcome! These terms and conditions outline the rules and regulations for the use of our product and services.</p>
+        <p>By accessing this website, we assume you accept these terms and conditions. Do not continue to use [Your Company Name] if you do not agree to all of the terms and conditions stated on this page.</p>
+        <h2>Services</h2>
+        <p>We provide AI/ML-based products and services across various sectors. Our offerings include, but are not limited to, [list of your services].</p>
+        <h2>Usage</h2>
+        <p>By using our services, you agree not to misuse the platform and to use it in compliance with all applicable laws and regulations.</p>
+        <h2>Account</h2>
+        <p>When you create an account with us, you must provide accurate and complete information. You are responsible for safeguarding your account and for any activities or actions under your account.</p>
+        <h2>Termination</h2>
+        <p>We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+        <h2>Changes to Terms</h2>
+        <p>We reserve the right to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect.</p>
+        
+        <h1>Privacy Policy</h1>
+        <p>At [Your Company Name], we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.</p>
+        <h2>Information Collection</h2>
+        <p>We may collect personal information such as your name, email address, phone number, and payment details when you register on our site or make a purchase.</p>
+        <h2>Use of Information</h2>
+        <p>We use your information to provide and improve our services, process transactions, communicate with you, and for marketing purposes.</p>
+        <h2>Disclosure of Information</h2>
+        <p>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users.</p>
+        <h2>Security</h2>
+        <p>We implement a variety of security measures to maintain the safety of your personal information.</p>
+        <h2>Changes to this Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
+        <h1>Refund and Cancellation Policy</h1>
+        <h2>Refund Process</h2>
+        <p>If you are not satisfied with your purchase, you may request a refund within [X] days of receiving the product/service. To initiate a refund, please contact us at [Your Email Address]. Refunds will be processed within 5-7 working days and credited to your original method of payment.</p>
+        <h2>Cancellations</h2>
+        <p>If you wish to cancel your order, please do so within [Y] hours of placing the order. Contact us at [Your Email Address] to request a cancellation.</p>
+
+        <h1>Pricing</h1>
+        <p>All prices listed on our website are in [Currency] and are subject to change without notice. We ensure transparent pricing for all our products and services, with no hidden fees.</p>
+
+        <h1>Shipping Policy</h1>
+        <h2>Domestic Shipping</h2>
+        <p>We offer shipping within India. Orders are processed within [1-2 business days] and delivery is expected within [3-7 business days].</p>
+        <h2>International Shipping</h2>
+        <p>We currently do not offer international shipping.</p>
+        <h2>Shipping Charges</h2>
+        <p>Shipping charges are calculated at checkout based on the destination and weight of the package.</p>
+
+        <h1>Contact Us</h1>
+        <p>If you have any questions or concerns, please contact us at:</p>
+        <p><strong>Phone:</strong> +91 9663180565</p>
+        <p><strong>Email:</strong> shaanz2030@gmail.com</p>
+        <p><strong>Address:</strong> Mangalore, India</p>
+
+        <h1>Products and Services</h1>
+        <p>We specialize in AI/ML-based products and services</p>
+        
+    </div>
+</body>
+</html>
