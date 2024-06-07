@@ -37,18 +37,18 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-							<li class="nav-item"><a class="nav-link" href="portfolio.html">Projects</a></li>
+							<li class="nav-item"><a class="nav-link" href="#aboutSection">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+							<li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Pages ></a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="tnc.html">Terms & Conditions</a></li>
-									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Project Details</a></li>
+									<!-- <li class="nav-item"><a class="nav-link" href="portfolio-details.html">Project Details</a></li> -->
 								</ul>
 							</li>
-							<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+							<!-- <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> -->
 								
 							</li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -88,7 +88,7 @@
 	<!--================ End Home Banner Area =================-->
 
 	<!--================ Start About Us Area =================-->
-	<section class="about_area section_gap">
+	<section class="about_area section_gap"  id="aboutSection">
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-5">
@@ -121,7 +121,7 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================ Srart Brand Area =================-->
-	<section class="brand_area section_gap_bottom">
+	<section class="brand_area section_gap_bottom"  >
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-6">
@@ -214,7 +214,7 @@
 	<!--================ End Brand Area =================-->
 
 	<!--================ Start Features Area =================-->
-	<section class="features_area">
+	<section class="features_area" id="services">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
@@ -653,7 +653,7 @@ I offer consulting, training, and continuous support. My focus is on empowering 
 	<!--================End Portfolio Area =================-->
 
 	<!--================ Start Testimonial Area =================-->
-	<div class="testimonial_area section_gap_bottom">
+	<!-- <div class="testimonial_area section_gap_bottom">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
@@ -747,7 +747,7 @@ I offer consulting, training, and continuous support. My focus is on empowering 
         		</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!--================ End Testimonial Area =================-->
 
 	<!--================ Start Newsletter Area =================-->
@@ -758,7 +758,7 @@ I offer consulting, training, and continuous support. My focus is on empowering 
 					<div class="subscription_box text-center">
 						<h2 class="text-uppercase text-white">get update from anywhere</h2>
 						<p class="text-white">
-							Bearing Void gathering light light his eavening unto dont afraid. 
+							Bearing Void gathering. 
 						</p>
 						<div class="subcribe-form" id="mc_embed_signup">
 							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
@@ -801,7 +801,7 @@ I offer consulting, training, and continuous support. My focus is on empowering 
 			<div class="row footer_bottom justify-content-center">
 				<p class="col-lg-8 col-sm-12 footer-text">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/shaan807/" target="_blank">WAP</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			</div>
 		</div>
@@ -828,3 +828,31 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </body>
 
 </html>
+
+
+
+	 <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const portfolioLink = document.querySelector('a[href="#portfolio"]');
+            portfolioLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                const portfolioSection = document.getElementById("portfolio");
+                portfolioSection.scrollIntoView({ behavior: "smooth" });
+            });
+        });
+    </script>
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function(e) {
+				e.preventDefault();
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+	});
+	</script>
+	
